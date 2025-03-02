@@ -1,8 +1,15 @@
-# IFan 03 External Component
+# IFan03 External Component
 
 External Component for SonOff ifan 03
 
-This has been changed as the custom components were removed from HA
+This has been refactored as the custom components were removed from HA. 
+
+> [!CAUTION]
+If you get this error
+**The "custom" component has been removed. Consider conversion to an external component.
+  https://esphome.io/guides/contributing#a-note-about-custom-components.**
+
+This will fix your issue
 
 example YAML:
 ```
