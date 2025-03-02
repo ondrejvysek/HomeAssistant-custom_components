@@ -10,9 +10,8 @@ esphome:
   name: ifan03
 
 external_components:
-  - source:
-      type: local
-      path: components
+  - source: github://ondrejvysek/HomeAssistant-custom_components@main
+    components: [ifan03]
 
 esp8266:
   board: esp8285
